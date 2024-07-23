@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_titles",
+  "info": {
+    "singularName": "hero-title",
+    "pluralName": "hero-titles",
+    "displayName": "Fields",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroTitle": {
+      "type": "text"
+    },
+    "HeroDescription": {
+      "type": "blocks"
+    },
+    "HeroImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "AboutUsSection": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_fields_homepages",
+  "info": {
+    "displayName": "Homepage",
+    "icon": ""
+  },
+  "options": {},
+  "attributes": {
+    "HeroTitle": {
+      "type": "text"
+    },
+    "HeroDescription": {
+      "type": "blocks"
+    },
+    "HeroImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "AboutUsSection": {
+      "type": "blocks"
+    },
+    "Property": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "admin::user"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
+    }
+  }
+}
